@@ -1,0 +1,20 @@
+{
+  "name": "thruproxy",
+  "version": "0.1.0",
+  "description": "Thru proxy",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavoja/thruproxy.git"
+  },
+  "keywords": [
+    "http",
+    "proxy"
+  ],
+  "author": "Michal Kochel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavoja/thruproxy/issues"
+  },
+  "homepage": "https://github.com/gavoja/thruproxy#readme"
+}
