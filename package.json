@@ -1,6 +1,6 @@
 {
   "name": "thruproxy",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Thru proxy",
   "main": "index.js",
   "repository": {
@@ -25,6 +25,9 @@
   "devDependencies": {
     "runna": "^2.2.1",
     "runna-webserver": "^0.1.4"
+  },
+  "bin": {
+    "thruproxy": "./bin/thruproxy"
   },
   "scripts": {
     "test:serve": "runna-webserver -w test/site -p 80 -a admin:bar",
