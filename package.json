@@ -16,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/gavoja/thruproxy/issues"
   },
-  "homepage": "https://github.com/gavoja/thruproxy#readme"
+  "homepage": "https://github.com/gavoja/thruproxy#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.2.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "runna": "^2.2.1",
+    "runna-webserver": "^0.1.4"
+  },
+  "scripts": {
+    "test:serve": "runna-webserver -w test/site -p 80 -a admin:bar",
+    "test:proxy": "node index.js test/config/proxy.json",
+    "test": "runna [ +test:serve +test:proxy ]"
+  }
 }

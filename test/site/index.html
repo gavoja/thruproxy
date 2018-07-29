@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Thruproxy test</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <style>
+      body {
+        font-family: 'Roboto Mono', 'Consolas', monospace;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 24px;
+      }
+      h1, h2 {
+        font-weight: 300;
+      }
+      a {
+        margin: 6px 0 6px 0;
+        text-decoration: none;
+        color: #0088ff;
+        display: inline-block;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <h1>Test page</h1>
+    <div id="links">
+      <h2>Static Links</h2>
+      <a href="http://unsecure-link.com">http://unsecure-link.com</a><br/>
+      <a href="https://secure-link.com">https://secure-link.com</a><br/>
+      <a href="//default-link.com">//default-link.com</a><br/>
+      <a href="http://skip-link.com">http://skip-link.com</a><br/>
+      <a href="http://replace-link.com">http://replace-link.com</a><br/>
+      <a href="http://global-replace-link.com">http://global-replace-link.com</a><br/>
+    </div>
+    <div id="js-links">
+    </div>
+    <div id="inject-links">
+    </div>
+    <div id="youtube">
+      <h2>YouTube</h2>
+      <iframe width="854" height="480" src="https://www.youtube.com/embed/S9dqJRyk0YM" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

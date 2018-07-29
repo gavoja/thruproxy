@@ -1,0 +1,20 @@
+{
+  "hostname": "localhost",
+  "port": 8080,
+  "securePort": "8443",
+  "auth": "admin:foo",
+  "cert": "www.example.com.cert",
+  "key": "www.example.com.key",
+  "sites": [{
+    "urls": [".*"],
+    "inject": [],
+    "skip": ["youtube", "facebook", "twitter", "facebook", "googleapis"],
+    "replace": [{"search": "global-replace-link\\.com", "replace": "global-replaced-link.net"}]
+  }, {
+    "urls": ["localhost"],
+    "auth": "admin:bar",
+    "skip": ["skip-link"],
+    "replace": [{"search": "replace-link", "replace": "replaced-link"}],
+    "inject": ["../injects/inject.html", "../injects/inject.css", "../injects/inject.js"]
+  }]
+}
