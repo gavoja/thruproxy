@@ -8,10 +8,10 @@
   "sites": [{
     "urls": [".*"],
     "inject": [],
-    "skip": ["youtube", "facebook", "twitter", "facebook", "googleapis"],
+    "skip": ["youtube", "facebook", "twitter", "facebook", "googleapis", "\\.jpg", "\\.png", "\\.woff", "\\.woff2", "\\.ttf", "\\.js"],
     "replace": [{"search": "global-replace-link\\.com", "replace": "global-replaced-link.net"}]
   }, {
-    "urls": ["localhost"],
+    "urls": ["localhost.*"],
     "auth": "admin:bar",
     "skip": ["skip-link"],
     "replace": [{"search": "replace-link", "replace": "replaced-link"}],
