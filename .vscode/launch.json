@@ -12,6 +12,14 @@
       "args": [
         "test/config/proxy.json"
       ]
+    }, {
+      "type": "node",
+      "request": "launch",
+      "name": "Proxy (basic)",
+      "program": "${workspaceFolder}\\index.js",
+      "args": [
+        "test/config/proxy-basic.json"
+      ]
     }
   ]
 }

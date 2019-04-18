@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/gavoja/thruproxy#readme",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "express": "^4.16.3",
-    "express-http-proxy": "^1.2.0",
+    "chalk": "^2.4.2",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.1",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
