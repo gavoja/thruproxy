@@ -1,6 +1,6 @@
 {
   "name": "thruproxy",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Thru proxy",
   "main": "index.js",
   "repository": {
@@ -19,13 +19,13 @@
   "homepage": "https://github.com/gavoja/thruproxy#readme",
   "dependencies": {
     "chalk": "^2.4.2",
-    "express": "^4.16.4",
-    "express-http-proxy": "^1.5.1",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
-    "runna": "^2.2.1",
-    "runna-webserver": "^0.1.4"
+    "runna": "^2.4.2",
+    "runna-webserver": "^0.2.0"
   },
   "bin": {
     "thruproxy": "./bin/thruproxy"
